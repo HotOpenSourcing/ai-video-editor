@@ -14,8 +14,8 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
+    "dev": "node init && vite --host 0.0.0.0",
+    "build": "node init && vite build",
     "agent": "node scripts/timeline-command.mjs",
     "mcp": "node skills/edit-timeline-studio/mcp/server.mjs",
     "skill:doctor": "node skills/edit-timeline-studio/scripts/setup-host.mjs --check",

@@ -28,8 +28,6 @@ yarn-error.log*
 pnpm-debug.log*
 
 # local environment
-.env
-.env.*
 !.env.example
 
 # OS/editor noise
@@ -41,7 +39,7 @@ desktop.ini
 *.swo
 *~
 .idea/
-.vscode/
 
 # Local Netlify folder
 .netlify
+config.bat
